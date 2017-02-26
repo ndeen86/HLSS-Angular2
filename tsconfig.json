@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "removeComments": false,
+    "noImplicitAny": true,
+    "suppressImplicitAnyIndexErrors": true
+    // Nizam - Commented due to watch is taken care by  
+    // config in package.json ["start": "tsc && concurrently \"tsc -w\" \"lite-server\" "]
+    // "watch": true
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
