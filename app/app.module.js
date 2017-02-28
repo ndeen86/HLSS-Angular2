@@ -33,6 +33,7 @@ AppModule = __decorate([
             ])
         ],
         declarations: [app_component_1.AppComponent, login_component_1.LoginComponent],
+        providers: [],
         bootstrap: [app_component_1.AppComponent]
     })
 ], AppModule);

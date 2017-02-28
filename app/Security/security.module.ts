@@ -10,7 +10,7 @@ import { LoginComponent } from './Component/login.component';
     ]
 })
 
-export class SecurityModule{
+export class SecurityModule {
 
 }
 

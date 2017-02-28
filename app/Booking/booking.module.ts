@@ -11,7 +11,6 @@ import { BookingHomeComponent } from './Component/bookinghome.component';
     declarations: [ BookingHomeComponent ]
 })
 
-export class BookingModule
-{
+export class BookingModule {
 
 }

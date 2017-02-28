@@ -20,7 +20,8 @@ import { SecurityModule } from './Security/security.module';
                 { path: '**', redirectTo: 'security', pathMatch: 'full' }
             ])
             ],
-        declarations : [ AppComponent, LoginComponent ],
+        declarations: [ AppComponent, LoginComponent ],
+        providers: [],
         bootstrap: [ AppComponent ]   
     })
 
